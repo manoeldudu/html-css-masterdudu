@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Regra @charset caso haja problemas com acentruação */
+body{
+    
+    background-color: rgb(19, 144, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 240, 240);
+}
+h1{
+    color: rgb(6, 139, 156);
+    background-color: rgb(5, 46, 73);
+}
+h2{
+    color: rgb(59, 43, 131);
+}
+p{
+    text-align: justify;
+}
