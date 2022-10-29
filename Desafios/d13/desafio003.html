@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes Favoritos</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 5px;
+            width: 150px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #157f2096;
+        }
+        th{
+            border: 1px solid black;
+            width: 100px;   
+        }
+        th.titulo{
+            background-color: #B3DEE2;
+        }
+        th.subtitulo{
+            background-color: #7FD1B9;
+        }
+        td.nomem{
+            background-color: #D62839;
+        }
+        td.nomeh{
+            background-color: #2667FF;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+    <tr>
+        <th class="titulo">Grupos</th>
+        <th class="titulo">Nomes</th>
+        <th colspan="3" class="titulo">Filmes</th>
+    </tr>
+    <tr> 
+        <th rowspan="3" class="subtitulo">Mulheres</th>
+        <td class="nomem">Ana Maria Santos</td>
+        <td>Alien</td>
+        <td>Hambo</td>
+        <td>Vingadores</td>
+    </tr>
+    <tr>
+        <td class="nomem">Beatriz Souza</td>
+        <td>Hulk</td>
+        <td>Inception</td>
+        <td>Batman</td>
+    </tr>
+    <tr>
+        <td class="nomem">Cláudia Melo</td>
+        <td>Oblivion</td>
+        <td>Matriz</td>
+        <td>Big Hero</td>
+    </tr>
+    <tr>
+        <th rowspan="3" class="subtitulo">Homens</th>
+        <td class="nomeh">Bruno Mendonça</td>
+        <td>Intocáveis</td>
+        <td>Amnésia</td>
+        <td>Gladiador</td>
+    </tr>
+    <tr>
+        <td class="nomeh">Daniel Lourenço</td>
+        <td>Wall-E</td>
+        <td>Old Boy</td>
+        <td>Dangal</td>
+    </tr>
+    <tr>
+        <td class="nomeh">Fabiano Mota</td>
+        <td>Stall Wars 5</td>
+        <td>Taxy Drive</td>
+        <td>Toy Store</td>
+    </tr>
+    </table>
+</body>
+</html>
