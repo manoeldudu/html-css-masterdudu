@@ -31,7 +31,7 @@
             background-color: #D62839;
         }
         td.nomeh{
-            background-color: #2667FF;
+            background-color:#2667FF;
         }
 
     </style>
@@ -39,12 +39,12 @@
 <body>
     <table>
     <tr>
-        <th class="titulo">Grupos</th>
-        <th class="titulo">Nomes</th>
-        <th colspan="3" class="titulo">Filmes</th>
+        <th class="titulo" scope="col">Grupos</th>
+        <th class="titulo" scope="col">Nomes</th>
+        <th colspan="3" class="titulo" scope="colgroup">Filmes</th>
     </tr>
     <tr> 
-        <th rowspan="3" class="subtitulo">Mulheres</th>
+        <th rowspan="3" class="subtitulo" scope="rowgroup">Mulheres</th>
         <td class="nomem">Ana Maria Santos</td>
         <td>Alien</td>
         <td>Hambo</td>
@@ -63,7 +63,7 @@
         <td>Big Hero</td>
     </tr>
     <tr>
-        <th rowspan="3" class="subtitulo">Homens</th>
+        <th rowspan="3" class="subtitulo" scope="rowgroup">Homens</th>
         <td class="nomeh">Bruno Mendonça</td>
         <td>Intocáveis</td>
         <td>Amnésia</td>
